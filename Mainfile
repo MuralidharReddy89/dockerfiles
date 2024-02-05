@@ -1,0 +1,6 @@
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "hai pavani" > /tmp/tempfile
+RUN apt update -y
+RUN apt install git tree -y
+
